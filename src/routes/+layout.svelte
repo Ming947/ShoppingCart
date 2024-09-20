@@ -1,5 +1,8 @@
 <script>
   import "$lib/css/app.css";
+  import {page} from "$app/stores";
+  import { itemStore } from "$lib/js/shoppingitem-store";
+  
 </script>
 
 <div class="container">

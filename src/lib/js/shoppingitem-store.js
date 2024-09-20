@@ -1,4 +1,5 @@
 // shoppingitems.js
+import { writable } from "svelte/store";
 
 const INITIAL_ITEMS = [
     {
@@ -63,4 +64,17 @@ const INITIAL_ITEMS = [
     }
 ];
 
-export default INITIAL_ITEMS;
+export const itemStore =writable (INITIAL_ITEMS);
+
+// export let addItem = num++;
+
+
+export let totalAmount = writable(0);
+export let totalPrice = writable(0);
+
+export function priceStore(){
+
+}
+
+
+

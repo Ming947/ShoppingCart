@@ -8,7 +8,7 @@
         goto(`/products/${dexNumber}`); // 跳转到动态路由
     }
     function addItemToCart(item){
-        dispatch("addItem",{name:item.name, price: item.price})
+        dispatch("addItem",(item.name));
     }
 </script>
 

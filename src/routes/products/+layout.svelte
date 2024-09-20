@@ -1,9 +1,10 @@
 <script>
     import ItemsDisplay from "$lib/components/ItemsDisplay.svelte";
+    import ShoppingCart from "$lib/components/ShoppingCart.svelte";
 
 </script>
 
-<ItemsDisplay />
+<ShoppingCart />
 <div>
     <slot />
 </div>
